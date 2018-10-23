@@ -1,2 +1,0 @@
-User-agent: *
-Sitemap: <http://harrydurbin.github.io/sitemap.xml>
