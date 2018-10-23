@@ -10,12 +10,6 @@
 #   img: /static/assets/img/landing/iconchile.png
 #   desc: Collecting geo-tagged tweets placed within the country of Chile and performing text analysis.
 
-- name: Chicago Bus Analysis
-  i18n: a
-  gh_user: harrydurbin
-  repo: chicago-bus-analysis
-  img: /static/assets/img/landing/iconbus.png
-  desc: Database schema design to optimize performance for chicago bus data [Python,Postgres].
 
 - name: IoT Temperature Monitoring
   i18n: a
@@ -38,6 +32,13 @@
   img: /static/assets/img/landing/smile1.png
   desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
   altsite: http://happiness-predictor.herokuapp.com
+
+- name: Chicago Bus Analysis
+  i18n: a
+  gh_user: harrydurbin
+  repo: chicago-bus-analysis
+  img: /static/assets/img/landing/iconbus.png
+  desc: Database schema design to optimize performance for chicago bus data [Python,Postgres].
 
 # - name: Tweet Clustering and Analysis
 #   i18n: a
