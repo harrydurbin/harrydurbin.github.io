@@ -1,9 +1,9 @@
 # links section data
-- last_name: My Drawings
-  first_name:
-  desc:
-  website: https://goo.gl/photos/6MHcbNKJrQSbR5Br6
-  email:
+# - last_name: My Drawings
+#   first_name:
+#   desc:
+#   website: https://goo.gl/photos/6MHcbNKJrQSbR5Br6
+#   email:
 
 - last_name: Chile
   first_name:
@@ -33,4 +33,28 @@
   first_name:
   desc:
   website: https://photos.app.goo.gl/vKNsD372rPePLSV52
+  email:
+
+- last_name: Santa Cruz
+  first_name:
+  desc:
+  website: https://goo.gl/photos/tneGcebX9Me1s5GZ8
+  email:
+
+- last_name: Santa Cruz
+  first_name:
+  desc:
+  website: https://photos.app.goo.gl/U7BX3dmWmEzV7bTCA
+  email:
+
+- last_name: Monterey
+  first_name:
+  desc:
+  website: https://photos.app.goo.gl/tRDW8ciPKvk5umNG8
+  email:
+
+- last_name: San Jose
+  first_name:
+  desc:
+  website: https://photos.app.goo.gl/YcgexRcah6tHTCuR9
   email:
