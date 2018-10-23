@@ -1,0 +1,6 @@
+# skills section data
+
+label: Ability
+id : cs
+aspects: Focus, Matlab, SQL, Machine Learning, Data Science, GIS, Python
+percentage: 95, 80, 85, 80, 85, 80, 90
