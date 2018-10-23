@@ -20,7 +20,7 @@
 
 - id: links
   i18n: nav.link
-  name: Links
+  name: Photos
   tpl: links.html
   css: contact
 
@@ -41,7 +41,7 @@
   i18n: nav.art
   name: Art
   tpl: art.html
-  css: 
+  css:
 
 # - id: skills
 #   i18n: nav.skills
