@@ -1,0 +1,18 @@
+# drawing page sections
+- name: Drawings
+  href: /drawings/
+
+# edit following lines to custom your drawing page, make sure name is the same as href but capitalized first letter(except HTML)
+
+
+# - name: Travels
+#   href: /travels/
+
+# - name: Life
+#   href: /life/
+
+# - name: Learn
+#   href: /learn/
+
+# - name: Politics
+#   href: /politics/

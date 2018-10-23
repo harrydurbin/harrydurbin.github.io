@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html>
+
+	
+	    <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+  <meta name="author" content="Harry">
+
+  <title>
+    
+        harry|Blog
+    
+  </title>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="/static/assets/img/favicon.ico">
+
+  <!-- Main CSS -->
+  <link href="/static/assets/app-20170307.min.css" rel="stylesheet">
+
+  <!-- Main Scripts -->
+  <script src="/static/assets/app-20170307.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var initial = 0;
+      var show = true;
+
+      var toggleSearch = function (visible) {
+        initial = 0;
+        show = !visible;
+        var visibility = visible ? 'block' : 'none';
+
+        $("#search-content").val("");
+        $(".search-tool").css("display", visibility);
+      };
+
+      var shouldToggle = function (time) {
+        var gap = time - initial;
+        initial = time;
+        return gap < 500;
+      };
+
+      $(document).keyup(function (e) {
+        var now = new Date().getTime();
+        if (e.keyCode == 17 && shouldToggle(now)) {
+          toggleSearch(show);
+        } else if (e.keyCode == 27) {
+          toggleSearch(false);
+        }
+      });
+
+      $("#search-content").keyup(function (e) {
+        var now = new Date().getTime();
+        if (e.keyCode == 17 && shouldToggle(now)) {
+          toggleSearch(show);
+        }
+      });
+
+      $("#close-btn").click(function () {
+        toggleSearch(false);
+      });
+
+      $("#search-btn").click(function() {
+        toggleSearch(true);
+      });
+
+      $.getJSON("/search/cb-search.json")
+        .done(function (data) {
+          if (data.code == 0) {
+            $("#search-content").typeahead({
+              source: data.data,
+              displayText: function (item) {
+                return item.title;
+              },
+              afterSelect: function (item) {
+                window.location.href = item.url;
+              }
+            });
+          }
+        });
+    });
+    $(function(){
+        $("pre").css('display','block');
+    });
+  </script>
+</head>
+
+	
+
+<body id="page-top" class="landing-page">
+
+	
+	    <div class="search-tool"
+      style="position: fixed; top: 0px ; bottom: 0px; left: 0px; right:  0px; opacity: 0.95; background-color: #111111; z-index: 9999; display: none;">
+    <input type="text" class="form-control search-content" id="search-content" style="position: fixed; top: 60px" placeholder="Search Blog">
+
+    <div style="position: fixed; top: 16px; right: 16px; z-index: 9999;">
+        <img src="/search/img/cb-close.png" id="close-btn"/>
+    </div>
+</div>
+
+<div style="position: fixed; right: 16px; bottom: 20px; z-index: 9999;">
+    <img src="/search/img/cb-search.png"  id="search-btn"  title="Double click Ctrl"/>
+</div>
+
+<div class="navbar-wrapper">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">harry</a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="page-scroll" href="blog/"></a></li>
+                    
+                        
+                        
+                        <li class="active">
+                        
+                        <a class="page-scroll" href="/blog/">Blog</a></li>
+                        
+                    
+                        
+                        
+                        <li>
+                        
+                        <a class="page-scroll" href="/quotations/">Quotations</a></li>
+                        
+                    
+                </ul>
+            </div>
+        </div>
+    </nav>
+</div>
+<div id="inSlider" class="carousel carousel-fade" data-ride="carousel">
+    <ol class="carousel-indicators">
+        <li data-target="#inSlider" data-slide-to="0" class="active"></li>
+        <li data-target="#inSlider" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <div class="container">
+                <div class="carousel-caption">
+                </div>
+                <div class="carousel-image wow zoomIn">
+                    <!-- <img src="static/img/landing/laptop.png" alt="laptop"/> -->
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back one"></div>
+
+        </div>
+        <div class="item">
+            <div class="container">
+                <div class="carousel-caption blank">
+                </div>
+            </div>
+            <!-- Set background for slide in css -->
+            <div class="header-back two"></div>
+        </div>
+    </div>
+    <a class="left carousel-control" href="#inSlider" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#inSlider" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+</div>
+
+	
+
+        <div class="row">
+    <div class="col-lg-12 text-center">
+        <div class="navy-line"></div>
+        <h1>Latest Blog</h1>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+        <div class="wrapper wrapper-content animated fadeInRight">
+
+            <!-- latest 10 blog -->
+			
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/quotations/2018/07/04/quote24.html" class="vote-title">
+                            'The evil is spread like the fever ahead, it was night when you died my firefly. What could I have said to raise you from the dead, oh could I be the sky on the Forth of July '
+                        </a>
+                        <div class="vote-info">
+                        
+                        
+                            <i class="fa fa-clock-o"></i> <a>4 Jul 2018</a>
+                            <i class="fa fa-user"></i> <a>Harry</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/quotations/2017/11/26/quote23.html" class="vote-title">
+                            'Those who can make you believe absurdities can make you commit atrocities.'
+                        </a>
+                        <div class="vote-info">
+                        
+                        
+                            <i class="fa fa-clock-o"></i> <a>26 Nov 2017</a>
+                            <i class="fa fa-user"></i> <a>Harry</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/quotations/2017/09/19/quote20.html" class="vote-title">
+                            'You'll have bad times, but it'll always wake you up to the good stuff you weren't paying attention to.'
+                        </a>
+                        <div class="vote-info">
+                        
+                        
+                            <i class="fa fa-clock-o"></i> <a>19 Sep 2017</a>
+                            <i class="fa fa-user"></i> <a>Harry</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/quotations/2017/09/17/quote19.html" class="vote-title">
+                            'Mr. Hitler, you know you ain't so keen / But we American people say you're the biggest liar they ever seen / We're gonna tear Hitler down someday / We're gonna bring him to the ground someday.'
+                        </a>
+                        <div class="vote-info">
+                        
+                        
+                            <i class="fa fa-clock-o"></i> <a>17 Sep 2017</a>
+                            <i class="fa fa-user"></i> <a>Harry</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/quotations/2017/09/17/quote18.html" class="vote-title">
+                            'People of every color marching side by side / Marching across these fields where a million fascists died / You're bound to lose / You fascists are bound to lose'
+                        </a>
+                        <div class="vote-info">
+                        
+                        
+                            <i class="fa fa-clock-o"></i> <a>17 Sep 2017</a>
+                            <i class="fa fa-user"></i> <a>Harry</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/quotations/2017/09/16/quote17.html" class="vote-title">
+                            'There is some good in this world, and it's worth fighting for.'
+                        </a>
+                        <div class="vote-info">
+                        
+                        
+                            <i class="fa fa-clock-o"></i> <a>16 Sep 2017</a>
+                            <i class="fa fa-user"></i> <a>Harry</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/quotations/2017/08/07/quote15.html" class="vote-title">
+                            'Sometimes even to live is an act of courage.'
+                        </a>
+                        <div class="vote-info">
+                        
+                        
+                            <i class="fa fa-clock-o"></i> <a>7 Aug 2017</a>
+                            <i class="fa fa-user"></i> <a>Harry</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/quotations/2017/07/30/quote14.html" class="vote-title">
+                            'If you want any one thing too badly, it’s likely to turn out to be a disappointment. The only healthy way to live life is to learn to like all the little everyday things'
+                        </a>
+                        <div class="vote-info">
+                        
+                        
+                            <i class="fa fa-clock-o"></i> <a>30 Jul 2017</a>
+                            <i class="fa fa-user"></i> <a>Harry</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/quotations/2017/07/25/quote13.html" class="vote-title">
+                            'Красота спасёт мир'
+                        </a>
+                        <div class="vote-info">
+                        
+                        
+                            <i class="fa fa-clock-o"></i> <a>25 Jul 2017</a>
+                            <i class="fa fa-user"></i> <a>Harry</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="vote-item">
+                <div class="row">
+                    <div class="col-md-10">
+                        <div class="vote-actions">
+                        </div>
+                        <a href="/quotations/2017/07/18/quote12.html" class="vote-title">
+                            'An ad that pretends to be art is -- at absolute best -- like somebody who smiles warmly at you only because he wants something from you...'
+                        </a>
+                        <div class="vote-info">
+                        
+                        
+                            <i class="fa fa-clock-o"></i> <a>18 Jul 2017</a>
+                            <i class="fa fa-user"></i> <a>Harry</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2 ">
+                        <div class="vote-icon">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+</div>
+
+
+
+
+	
+	    <!-- Google analytics -->
+
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-94015445-1', 'auto');
+    ga('send', 'pageview');
+
+  </script>
+
+
+<!-- GrowingIO -->
+
+
+
+
+
+	
+
+</body>
+</html>
