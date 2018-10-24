@@ -40,16 +40,16 @@
   img: /static/assets/img/landing/iconbus.png
   desc: Database schema design to optimize performance for chicago bus data [Python,Postgres].
 
-# - name: Tweet Clustering and Analysis
-#   i18n: a
-#   gh_user: harrydurbin
-#   repo: tweet-spatial-clustering
-#   img: /static/assets/img/landing/tweetbird.svg
-#   desc: Parsing geo-tagged tweet data, clustering, storing in databases and querying [Python,Postgres,MongoDB].
+- name: Tweet Clustering and Analysis
+  i18n: a
+  gh_user: harrydurbin
+  repo: tweet-spatial-clustering
+  img: /static/assets/img/landing/tweetbird.svg
+  desc: Parsing geo-tagged tweet data, clustering, storing in databases and querying [Python,Postgres,MongoDB].
 
 # - name: Reality Bytes Web App
 #   i18n: a
 #   gh_user: harrydurbin
 #   repo: reality-bits
 #   img: /static/assets/img/landing/raintank.png
-#   desc: An algorithm embedded in a web app to allow users to input actual occurence of events in their that are hoped for and their optimistic / pessimistic expection of occurence, allowing users over time to gauge their perspective of reality. [Python,Flask,Postgres].
+#   desc: Web app algorithm to allow users to input events in their life to allow users to gauge their perspective of reality. [Python,Flask,Postgres].
