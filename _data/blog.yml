@@ -9,18 +9,11 @@
 - name: Haiku
   href: /haiku/
 
-# - name: Life
-#   href: /life/
+- name: Learn
+  href: /learn/
 
-# - name: Learn
-#   href: /learn/
+- name: Travels
+  href: /travels/
 
 # - name: Politics
 #   href: /politics/
-
-
-
-
-# Don't display donation page: change donation to off at file '_config.yml'
-# - name: Donate
-#   href: /donate/
