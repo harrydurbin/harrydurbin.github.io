@@ -44,7 +44,7 @@
   i18n: a
   gh_user: harrydurbin
   repo: tweet-spatial-clustering
-  img: /static/assets/img/landing/tweetbird.svg
+  img: /static/assets/img/landing/tweetbird2.png
   desc: Parsing geo-tagged tweet data, clustering, storing in databases and querying [Python,Postgres,MongoDB].
 
 # - name: Reality Bytes Web App
