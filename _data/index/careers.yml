@@ -26,10 +26,10 @@
   job:
     detail: Staff/Project Engineer #As a Staff/Project Engineer, repeatedly made the LA office one of the most profitable in the company with my high utilization rate.
     i18n: x
-  icon: fa-building
+  icon: fa-plus
 
 - name:
-    detail: Sustainable Solutions International
+    detail: Sustainable Solutions International Pty Ltd
     i18n: x
   desc:
     detail: Brisbane, Queenland, Australia
@@ -39,11 +39,11 @@
     i18n: x
   job:
     detail: Project Engineer #As a Project Engineer, worked on eco-friendly developments by preparing complex water balance models to enable remote developments to rely solely on rainwater and reuse of treated sewage. Reviewed sensor data to find water use operational trends.
-    icon: fa-building
+    icon: fa-plus
     i18n: x
 
 - name:
-    detail: Atacama Water & Technology Ltda
+    detail: Atacama Water & Technology Ltda / Aguas Antofagasta SA
     i18n: company_a
   desc:
     detail: Antofagasta, Antofagasta, Chile
@@ -54,7 +54,7 @@
   job:
     detail: Studies Engineer #As a Studies Engineer, served a one-year work contract to help management with various research tasks, performed KPI data analysis, and prepared models.
     i18n: company_a_job
-  icon: fa-building
+  icon: fa-plus
 
 - name:
     detail: University of California, Berkeley
@@ -82,4 +82,4 @@
   job:
     detail: Project Engineer #In the Capital Planning department, compiled data for over a thousand infrastructure improvement projects throughout California.
     i18n: company_a_job
-  icon: fa-building
+  icon: fa-plus
