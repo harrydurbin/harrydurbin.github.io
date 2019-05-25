@@ -7,10 +7,10 @@
     detail: East Lansing, Michigan, USA
     i18n: company_a_desc
   date:
-    detail:
+    detail:2000-2004
     i18n: x
   job:
-    detail: #Earned a Bachelor's in Civil Engineering with honors while working part time for the Mathematics Department as a Grader & Teaching Assistent.
+    detail: Bachelor's, Civil Engineering #Earned a Bachelor's in Civil Engineering with honors while working part time for the Mathematics Department as a Grader & Teaching Assistent.
     i18n: x
   icon: fa-graduation-cap
 
@@ -21,12 +21,12 @@
     detail: Los Angeles, California, USA
     i18n: company_a_desc
   date:
-    detail:
+    detail:2006-2010 & 2011-2013
     i18n: x
   job:
-    detail: #As a Staff/Project Engineer, repeatedly made the LA office one of the most profitable in the company with my high utilization rate.
+    detail: Staff/Project Engineer #As a Staff/Project Engineer, repeatedly made the LA office one of the most profitable in the company with my high utilization rate.
     i18n: x
-  icon: fa-plus-square
+  icon: fa-building
 
 - name:
     detail: Sustainable Solutions International
@@ -35,12 +35,12 @@
     detail: Brisbane, Queenland, Australia
     i18n: x
   date:
-    detail:
+    detail:2010-2011
     i18n: x
   job:
-    detail: #As a Project Engineer, worked on eco-friendly developments by preparing complex water balance models to enable remote developments to rely solely on rainwater and reuse of treated sewage. Reviewed sensor data to find water use operational trends.
+    detail: Project Engineer #As a Project Engineer, worked on eco-friendly developments by preparing complex water balance models to enable remote developments to rely solely on rainwater and reuse of treated sewage. Reviewed sensor data to find water use operational trends.
+    icon: fa-building
     i18n: x
-  icon: fa-plus-square
 
 - name:
     detail: Atacama Water & Technology Ltda
@@ -49,12 +49,12 @@
     detail: Antofagasta, Antofagasta, Chile
     i18n: company_a_desc
   date:
-    detail:
+    detail:2013-2014
     i18n: company_a_date
   job:
-    detail: #As a Studies Engineer, served a one-year work contract to help management with various research tasks, performed KPI data analysis, and prepared models.
+    detail: Studies Engineer #As a Studies Engineer, served a one-year work contract to help management with various research tasks, performed KPI data analysis, and prepared models.
     i18n: company_a_job
-  icon: fa-plus
+  icon: fa-building
 
 - name:
     detail: University of California, Berkeley
@@ -63,12 +63,12 @@
     detail: Berkeley, California, USA
     i18n: company_a_desc
   date:
-    detail:
+    detail:2015-2016
     i18n: company_a_date
   job:
-    detail: #Earned a Masters's in Cyber-Physical Systems Engineering with honors. The program was a cross between Data Science and Industrial Engineering as courses focused on large scale IoT systems, collecting lots of data with sensors, analyzing, and creating predictive modeling and optimal controls.
+    detail: Master's, Cyber-Physical Systems Engineering #Earned a Masters's in Cyber-Physical Systems Engineering with honors. The program was a cross between Data Science and Industrial Engineering as courses focused on large scale IoT systems, collecting lots of data with sensors, analyzing, and creating predictive modeling and optimal controls.
     i18n: company_a_job
-  icon: fa-institution
+  icon: fa-graduation-cap
 
 - name:
     detail: California Water Service Company
@@ -77,9 +77,9 @@
     detail: San Jose, California, USA
     i18n: company_a_desc
   date:
-    detail:
+    detail:2017
     i18n: company_a_date
   job:
-    detail: #In the Capital Planning department, compiled data for over a thousand infrastructure improvement projects throughout California.
+    detail: Project Engineer #In the Capital Planning department, compiled data for over a thousand infrastructure improvement projects throughout California.
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa-building
