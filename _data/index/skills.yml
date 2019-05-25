@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: Focus, Matlab, SQL, Machine Learning, Data Science, GIS, Python
-percentage: 95, 80, 85, 80, 85, 80, 90
+aspects: SQL, GIS, Python, Visual Basic
+percentage: 90, 85, 90, 95
