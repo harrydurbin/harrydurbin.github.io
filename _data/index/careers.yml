@@ -39,9 +39,9 @@
     i18n: x
   job:
     detail: Project Engineer #As a Project Engineer, worked on eco-friendly developments by preparing complex water balance models to enable remote developments to rely solely on rainwater and reuse of treated sewage. Reviewed sensor data to find water use operational trends.
-    icon: fa-plus
     i18n: x
-
+    icon: fa-plus
+    
 - name:
     detail: Kennedy/Jenks Consultants
     i18n: x
