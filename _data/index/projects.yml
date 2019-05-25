@@ -17,6 +17,7 @@
   repo: temperature-monitoring
   img: /static/assets/img/landing/icontemp.png
   desc: Raspberry Pi with temperature sensor to monitor indoor and outdoor temperature and make forecasts using an ARIMA model. [Python,Sqlite].
+  altsite: https://plot.ly/~harry.durbin/97.embed
 
 - name: Rainwater Disinfection Simulator
   i18n: a
