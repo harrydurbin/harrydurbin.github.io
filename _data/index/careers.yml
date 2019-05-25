@@ -70,16 +70,16 @@
     i18n: company_a_job
   icon: fa-plus-square
 
-  - name:
-      detail: California Water Service Company
-      i18n: company_a
-    desc: In the Capital Planning department, helped manage the justifications and estimates for over a thousand infrastructure improvement projects throughout California.
-      detail: San Jose, California, USA
-      i18n: company_a_desc
-    date:
-      detail:
-      i18n: company_a_date
-    job:
-      detail: ukjhkjh
-      i18n: company_a_job
-    icon: fa-plus-square
+- name:
+    detail: California Water Service Company
+    i18n: company_a
+  desc:
+    detail: San Jose, California, USA
+    i18n: company_a_desc
+  date:
+    detail:
+    i18n: company_a_date
+  job:
+    detail: In the Capital Planning department, compiled data for over a thousand infrastructure improvement projects throughout California.
+    i18n: company_a_job
+  icon: fa-plus-square
