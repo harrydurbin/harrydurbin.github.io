@@ -10,9 +10,9 @@
     detail:
     i18n: x
   job:
-    detail: Earned a Bachelor's in Civil Engineering with honors while working part time for the Mathematics Department as a Grader & Teaching Assistent.
+    detail: #Earned a Bachelor's in Civil Engineering with honors while working part time for the Mathematics Department as a Grader & Teaching Assistent.
     i18n: x
-  icon: fa-plus-square
+  icon: fa-user-graduate
 
 - name:
     detail: Kennedy/Jenks Consultants
@@ -24,7 +24,7 @@
     detail:
     i18n: x
   job:
-    detail: As a Staff/Project Engineer, repeatedly made the LA office one of the most profitable in the company with my high utilization rate.
+    detail: #As a Staff/Project Engineer, repeatedly made the LA office one of the most profitable in the company with my high utilization rate.
     i18n: x
   icon: fa-plus-square
 
@@ -38,7 +38,7 @@
     detail:
     i18n: x
   job:
-    detail: As a Project Engineer, worked on eco-friendly developments by preparing complex water balance models to enable remote developments to rely solely on rainwater and reuse of treated sewage. Reviewed sensor data to find water use operational trends.
+    detail: #As a Project Engineer, worked on eco-friendly developments by preparing complex water balance models to enable remote developments to rely solely on rainwater and reuse of treated sewage. Reviewed sensor data to find water use operational trends.
     i18n: x
   icon: fa-plus-square
 
@@ -52,7 +52,7 @@
     detail:
     i18n: company_a_date
   job:
-    detail: As a Studies Engineer, served a one-year work contract to help management with various research tasks, performed KPI data analysis, and prepared models.
+    detail: #As a Studies Engineer, served a one-year work contract to help management with various research tasks, performed KPI data analysis, and prepared models.
     i18n: company_a_job
   icon: fa-plus-square
 
@@ -66,9 +66,9 @@
     detail:
     i18n: company_a_date
   job:
-    detail: Earned a Masters's in Cyber-Physical Systems Engineering with honors. The program was a cross between Data Science and Industrial Engineering as courses focused on large scale IoT systems, collecting lots of data with sensors, analyzing, and creating predictive modeling and optimal controls.
+    detail: #Earned a Masters's in Cyber-Physical Systems Engineering with honors. The program was a cross between Data Science and Industrial Engineering as courses focused on large scale IoT systems, collecting lots of data with sensors, analyzing, and creating predictive modeling and optimal controls.
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa-user-graduate
 
 - name:
     detail: California Water Service Company
@@ -80,6 +80,6 @@
     detail:
     i18n: company_a_date
   job:
-    detail: In the Capital Planning department, compiled data for over a thousand infrastructure improvement projects throughout California.
+    detail: #In the Capital Planning department, compiled data for over a thousand infrastructure improvement projects throughout California.
     i18n: company_a_job
   icon: fa-plus-square
