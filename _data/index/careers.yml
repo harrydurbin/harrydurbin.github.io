@@ -12,7 +12,7 @@
   job:
     detail: #Earned a Bachelor's in Civil Engineering with honors while working part time for the Mathematics Department as a Grader & Teaching Assistent.
     i18n: x
-  icon: fa-user-graduate
+  icon: fa-graduation-cap
 
 - name:
     detail: Kennedy/Jenks Consultants
@@ -54,7 +54,7 @@
   job:
     detail: #As a Studies Engineer, served a one-year work contract to help management with various research tasks, performed KPI data analysis, and prepared models.
     i18n: company_a_job
-  icon: fa-plus-square
+  icon: fa-plus
 
 - name:
     detail: University of California, Berkeley
@@ -68,7 +68,7 @@
   job:
     detail: #Earned a Masters's in Cyber-Physical Systems Engineering with honors. The program was a cross between Data Science and Industrial Engineering as courses focused on large scale IoT systems, collecting lots of data with sensors, analyzing, and creating predictive modeling and optimal controls.
     i18n: company_a_job
-  icon: fa-user-graduate
+  icon: fa-institution
 
 - name:
     detail: California Water Service Company
