@@ -21,12 +21,12 @@
     detail: Los Angeles, California, USA
     i18n: company_a_desc
   date:
-    detail: "2006-2010 & 2011-2013"
+    detail: "2006-2010"
     i18n: x
   job:
-    detail: Staff/Project Engineer #As a Staff/Project Engineer, repeatedly made the LA office one of the most profitable in the company with my high utilization rate.
+    detail: Staff Engineer #As a Staff/Project Engineer, repeatedly made the LA office one of the most profitable in the company with my high utilization rate.
     i18n: x
-  icon: fa-plus
+    icon: fa-plus
 
 - name:
     detail: Sustainable Solutions International Pty Ltd
@@ -43,6 +43,20 @@
     i18n: x
 
 - name:
+    detail: Kennedy/Jenks Consultants
+    i18n: x
+  desc:
+    detail: Los Angeles, California, USA
+    i18n: company_a_desc
+  date:
+    detail: "2011-2013"
+    i18n: x
+  job:
+    detail: Project Engineer #As a Staff/Project Engineer, repeatedly made the LA office one of the most profitable in the company with my high utilization rate.
+    i18n: x
+    icon: fa-plus
+
+- name:
     detail: Atacama Water & Technology Ltda / Aguas Antofagasta SA
     i18n: company_a
   desc:
@@ -54,7 +68,7 @@
   job:
     detail: Studies Engineer #As a Studies Engineer, served a one-year work contract to help management with various research tasks, performed KPI data analysis, and prepared models.
     i18n: company_a_job
-  icon: fa-plus
+    icon: fa-plus
 
 - name:
     detail: University of California, Berkeley
@@ -68,7 +82,7 @@
   job:
     detail: Master's, Cyber-Physical Systems Engineering #Earned a Masters's in Cyber-Physical Systems Engineering with honors. The program was a cross between Data Science and Industrial Engineering as courses focused on large scale IoT systems, collecting lots of data with sensors, analyzing, and creating predictive modeling and optimal controls.
     i18n: company_a_job
-  icon: fa-graduation-cap
+    icon: fa-graduation-cap
 
 - name:
     detail: California Water Service Company
@@ -82,4 +96,4 @@
   job:
     detail: Project Engineer #In the Capital Planning department, compiled data for over a thousand infrastructure improvement projects throughout California.
     i18n: company_a_job
-  icon: fa-plus
+    icon: fa-plus
