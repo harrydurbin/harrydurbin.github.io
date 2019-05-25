@@ -26,13 +26,7 @@
   img: /static/assets/img/landing/iconbus.png
   desc: Database schema design to optimize performance for chicago bus data [Python,Postgres].
 
-- name: Happiness Level Predictor
-  i18n: a
-  gh_user: harrydurbin
-  #repo: happiness-level-predictor
-  img: /static/assets/img/landing/smile1.png
-  desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
-  altsite: http://happiness-predictor.herokuapp.com
+
 
 - name: Rainwater Disinfection Simulator
   i18n: a
@@ -41,7 +35,13 @@
   img: /static/assets/img/landing/raintank.png
   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
 
-
+- name: Happiness Level Predictor
+  i18n: a
+  gh_user: harrydurbin
+  #repo: happiness-level-predictor
+  img: /static/assets/img/landing/smile1.png
+  desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
+  altsite: http://happiness-predictor.herokuapp.com
 
 #- name: Tweet Clustering and Analysis
 #  i18n: a
