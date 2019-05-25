@@ -14,17 +14,17 @@
 - name: IoT Temperature Monitoring
   i18n: a
   gh_user: harrydurbin
-  repo: temperature-monitoring
+  #repo: temperature-monitoring
   img: /static/assets/img/landing/icontemp.png
-  desc: Raspberry Pi with temperature sensor to monitor indoor and outdoor temperature and make forecasts using an ARIMA model. [Python,Sqlite].
+  desc: Raspberry Pi with temperature sensor to monitor temperature and make indoor forecasts using a predictive model. [Python,Sqlite].
   altsite: https://plot.ly/~harry.durbin/97.embed
 
-- name: Rainwater Disinfection Simulator
+- name: Chicago Bus Analysis
   i18n: a
   gh_user: harrydurbin
-  repo: rain-tank-disinfection
-  img: /static/assets/img/landing/raintank.png
-  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
+  repo: chicago-bus-analysis
+  img: /static/assets/img/landing/iconbus.png
+  desc: Database schema design to optimize performance for chicago bus data [Python,Postgres].
 
 - name: Happiness Level Predictor
   i18n: a
@@ -34,19 +34,21 @@
   desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
   altsite: http://happiness-predictor.herokuapp.com
 
-- name: Chicago Bus Analysis
+- name: Rainwater Disinfection Simulator
   i18n: a
   gh_user: harrydurbin
-  repo: chicago-bus-analysis
-  img: /static/assets/img/landing/iconbus.png
-  desc: Database schema design to optimize performance for chicago bus data [Python,Postgres].
+  repo: rain-tank-disinfection
+  img: /static/assets/img/landing/raintank.png
+  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
 
-- name: Tweet Clustering and Analysis
-  i18n: a
-  gh_user: harrydurbin
-  repo: tweet-spatial-clustering
-  img: /static/assets/img/landing/tweetbird2.png
-  desc: Parsing geo-tagged tweet data, clustering, storing in databases and querying [Python,Postgres,MongoDB].
+
+
+#- name: Tweet Clustering and Analysis
+#  i18n: a
+#  gh_user: harrydurbin
+#  repo: tweet-spatial-clustering
+#  img: /static/assets/img/landing/tweetbird2.png
+#  desc: Parsing geo-tagged tweet data, clustering, storing in databases and querying [Python,Postgres,MongoDB].
 
 # - name: Reality Bytes Web App
 #   i18n: a
