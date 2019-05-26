@@ -2,5 +2,5 @@
 
 label: Ability
 id : cs
-aspects: SQL, GIS, Python, Visual Basic, Civil 3D, Excel
-percentage: 80, 85, 90, 95, 100, 100
+aspects: Excel, SQL, GIS, Python, Visual Basic, Civil 3D
+percentage: 95, 80, 80, 85, 90, 90
