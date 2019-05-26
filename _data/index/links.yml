@@ -1,22 +1,22 @@
 # links section data
 
-- website: /static/assets/img/landing/smallthumbs/01.jpg
-- website: /static/assets/img/landing/smallthumbs/02.jpg
-- website: /static/assets/img/landing/smallthumbs/03.jpg
-- website: /static/assets/img/landing/smallthumbs/04.jpg
-- website: /static/assets/img/landing/smallthumbs/05.jpg
-- website: /static/assets/img/landing/smallthumbs/06.jpg
-- website: /static/assets/img/landing/smallthumbs/07.jpg
-- website: /static/assets/img/landing/smallthumbs/08.jpg
-- website: /static/assets/img/landing/smallthumbs/09.jpg
-- website: /static/assets/img/landing/smallthumbs/10.jpg
-- website: /static/assets/img/landing/smallthumbs/11.jpg
-- website: /static/assets/img/landing/smallthumbs/12.jpg
-- website: /static/assets/img/landing/smallthumbs/13.jpg
-- website: /static/assets/img/landing/smallthumbs/14.jpg
-- website: /static/assets/img/landing/smallthumbs/15.jpg
-- website: /static/assets/img/landing/smallthumbs/16.jpg
-- website: /static/assets/img/landing/smallthumbs/17.jpg
+- website: /static/assets/img/landing/thumbs/01.jpg
+- website: /static/assets/img/landing/thumbs/02.jpg
+- website: /static/assets/img/landing/thumbs/03.jpg
+- website: /static/assets/img/landing/thumbs/04.jpg
+- website: /static/assets/img/landing/thumbs/05.jpg
+- website: /static/assets/img/landing/thumbs/06.jpg
+- website: /static/assets/img/landing/thumbs/07.jpg
+- website: /static/assets/img/landing/thumbs/08.jpg
+- website: /static/assets/img/landing/thumbs/09.jpg
+- website: /static/assets/img/landing/thumbs/10.jpg
+- website: /static/assets/img/landing/thumbs/11.jpg
+- website: /static/assets/img/landing/thumbs/12.jpg
+- website: /static/assets/img/landing/thumbs/13.jpg
+- website: /static/assets/img/landing/thumbs/14.jpg
+- website: /static/assets/img/landing/thumbs/15.jpg
+- website: /static/assets/img/landing/thumbs/16.jpg
+- website: /static/assets/img/landing/thumbs/17.jpg
 
 # - last_name: Chile
 #   first_name:

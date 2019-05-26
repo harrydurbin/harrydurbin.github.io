@@ -24,12 +24,6 @@
   tpl: projects.html
   css: project
 
-- id: links
-  i18n: nav.link
-  name: Photos
-  tpl: links.html
-  css: projects #contact
-
 - id: blog
   i18n: nav.blog
   name: Blog
@@ -47,3 +41,9 @@
   name: Art
   tpl: art.html
   css: projects
+
+- id: links
+  i18n: nav.link
+  name: Photos
+  tpl: links.html
+  css: projects #contact
