@@ -15,6 +15,20 @@
     icon: fa-graduation-cap
 
 - name:
+    detail: HH Engineering
+    i18n: x
+  desc:
+    detail: Detroit, Michigan, USA
+    i18n: company_a_desc
+  date:
+    detail: "2003-2006"
+    i18n: x
+  job:
+    detail: Intern & Staff Engineer #As a Staff/Project Engineer, repeatedly made the LA office one of the most profitable in the company with my high utilization rate.
+    i18n: x
+    icon: fa-plus
+
+- name:
     detail: Kennedy/Jenks Consultants
     i18n: x
   desc:
