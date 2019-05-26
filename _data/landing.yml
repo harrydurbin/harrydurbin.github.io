@@ -28,7 +28,7 @@
   i18n: nav.link
   name: Photos
   tpl: links.html
-  css: contact
+  css: projects #contact
 
 - id: blog
   i18n: nav.blog
