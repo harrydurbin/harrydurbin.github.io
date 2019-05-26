@@ -11,8 +11,8 @@
     i18n: x
   job:
     detail: Bachelor's, Civil Engineering #Earned a Bachelor's in Civil Engineering with honors while working part time for the Mathematics Department as a Grader & Teaching Assistent.
-    i18n: x
     icon: fa-graduation-cap
+    i18n: x
 
 - name:
     detail: HH Engineering
@@ -25,8 +25,8 @@
     i18n: x
   job:
     detail: Intern & Staff Engineer #As a Staff/Project Engineer, repeatedly made the LA office one of the most profitable in the company with my high utilization rate.
-    i18n: x
     icon: fa-plus
+    i18n: x
 
 - name:
     detail: Kennedy/Jenks Consultants
