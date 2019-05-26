@@ -11,8 +11,8 @@
     i18n: x
   job:
     detail: Bachelor's, Civil Engineering #Earned a Bachelor's in Civil Engineering with honors while working part time for the Mathematics Department as a Grader & Teaching Assistent.
-    icon: fa-graduation-cap
     i18n: x
+  icon: fa-graduation-cap
 
 - name:
     detail: HH Engineering
