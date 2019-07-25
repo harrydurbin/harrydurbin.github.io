@@ -34,20 +34,20 @@
   desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
   altsite: https://happiness-predictor.herokuapp.com
 
-- name: Rainwater Disinfection Simulator
-  i18n: a
-  gh_user: harrydurbin
-  repo: rain-tank-disinfection
-  img: /static/assets/img/landing/raintank.png
-  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
-
-
-- name: Tweet Clustering and Analysis
- i18n: a
- gh_user: harrydurbin
- repo: tweet-spatial-clustering
- img: /static/assets/img/landing/tweetbird2.png
- desc: Parsing geo-tagged tweet data, clustering, storing in databases and querying [Python,Postgres,MongoDB].
+# - name: Rainwater Disinfection Simulator
+#   i18n: a
+#   gh_user: harrydurbin
+#   repo: rain-tank-disinfection
+#   img: /static/assets/img/landing/raintank.png
+#   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
+#
+#
+# - name: Tweet Clustering and Analysis
+#  i18n: a
+#  gh_user: harrydurbin
+#  repo: tweet-spatial-clustering
+#  img: /static/assets/img/landing/tweetbird2.png
+#  desc: Parsing geo-tagged tweet data, clustering, storing in databases and querying [Python,Postgres,MongoDB].
 
 - name: Clear-Colored Glasses Web App
   i18n: a
