@@ -42,14 +42,13 @@
   desc: Web app for users to evaluate their optimism / pessimism. [Python,Flask,Sqlite].
   altsite: https://clearcoloredglasses.herokuapp.com
 
-# - name: Rainwater Disinfection Simulator
-#   i18n: a
-#   gh_user: harrydurbin
-#   repo: rain-tank-disinfection
-#   img: /static/assets/img/landing/raintank.png
-#   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
-#
-#
+- name: Rainwater Disinfection Simulator
+  i18n: a
+  gh_user: harrydurbin
+  repo: rain-tank-disinfection
+  img: /static/assets/img/landing/raintank.png
+  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
+
 # - name: Tweet Clustering and Analysis
 #  i18n: a
 #  gh_user: harrydurbin
