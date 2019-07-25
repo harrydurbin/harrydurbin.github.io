@@ -34,6 +34,14 @@
   desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
   altsite: https://happiness-predictor.herokuapp.com
 
+- name: Clear-Colored Glasses Web App
+  i18n: a
+  gh_user: harrydurbin
+  # repo: reality-bits
+  img: /static/assets/img/landing/glasses.png
+  desc: Web app for users to evaluate their optimism / pessimism. [Python,Flask,Sqlite].
+  altsite: https://clearcoloredglasses.herokuapp.com
+
 # - name: Rainwater Disinfection Simulator
 #   i18n: a
 #   gh_user: harrydurbin
@@ -48,11 +56,3 @@
 #  repo: tweet-spatial-clustering
 #  img: /static/assets/img/landing/tweetbird2.png
 #  desc: Parsing geo-tagged tweet data, clustering, storing in databases and querying [Python,Postgres,MongoDB].
-
-- name: Clear-Colored Glasses Web App
-  i18n: a
-  gh_user: harrydurbin
-  # repo: reality-bits
-  img: /static/assets/img/landing/glasses.png
-  desc: Web app for users to evaluate their optimism / pessimism. [Python,Flask,Sqlite].
-  altsite: https://clearcoloredglasses.herokuapp.com
