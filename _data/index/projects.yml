@@ -38,7 +38,7 @@
   gh_user: harrydurbin
   # repo: reality-bits
   img: /static/assets/img/landing/glasses.png
-  desc: Web app for users to collect data and gauge optimism levels. [Python,Flask,Sqlite].
+  desc: Web app for users to collect data in CRUD database and gauge optimism levels. [Python,Flask,Sqlite].
   altsite: https://clearcoloredglasses.herokuapp.com
 
 - name: Happiness Level Predictor
