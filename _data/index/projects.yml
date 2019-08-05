@@ -26,12 +26,12 @@
   img: /static/assets/img/landing/iconbus.png
   desc: Database schema design to optimize performance for chicago bus data [Python,Postgres].
 
-- name: Clear-Colored Glasses Web App
+- name: Rose-tinted Glasses Web App
   i18n: a
   gh_user: harrydurbin
   # repo: reality-bits
   img: /static/assets/img/landing/glasses.png
-  desc: Web app for users to collect data in CRUD database and gauge optimism levels. [Python,Flask,Sqlite].
+  desc: Web app for users to collect data and gain insights to optimism / pessism levels. [Python,Flask,Sqlite].
   altsite: https://clearcoloredglasses.herokuapp.com
 
 - name: Happiness Level Predictor
@@ -49,9 +49,9 @@
 #   img: /static/assets/img/landing/tweetbird2.png
 #   desc: Parsing geo-tagged tweet data, clustering, storing in databases and querying [Python,Postgres,MongoDB].
 
-# - name: Rainwater Disinfection Simulator
-#   i18n: a
-#   gh_user: harrydurbin
-#   repo: rain-tank-disinfection
-#   img: /static/assets/img/landing/raintank.png
-#   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
+- name: Rainwater Disinfection Simulator
+  i18n: a
+  gh_user: harrydurbin
+  repo: rain-tank-disinfection
+  img: /static/assets/img/landing/raintank.png
+  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
