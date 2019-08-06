@@ -23,16 +23,14 @@
   i18n: a
   gh_user: harrydurbin
   repo: chicago-bus-analysis
-  img: /static/assets/img/landing/icontemp.png
-  # img: /static/assets/img/landing/iconbus.png
+  img: /static/assets/img/landing/iconbus.png
   desc: Database schema design to optimize performance for chicago bus data [Python,Postgres].
 
 - name: Rose-tinted Glasses Web App
   i18n: a
   gh_user: harrydurbin
   # repo: reality-bits
-  # img: /static/assets/img/landing/glasses.png
-  img: /static/assets/img/landing/icontemp.png
+  img: /static/assets/img/landing/glasses.png
   desc: Web app for users to collect data and gain insights to optimism / pessism levels. [Python,Flask,Sqlite].
   altsite: https://clearcoloredglasses.herokuapp.com
 
@@ -40,8 +38,8 @@
   i18n: a
   gh_user: harrydurbin
   #repo: happiness-level-predictor
-  img: /static/assets/img/landing/icontemp.png
-  # img: /static/assets/img/landing/smile1.p
+  # img: /static/assets/img/landing/icontemp.png
+  img: /static/assets/img/landing/smile1.png
   # desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
   altsite: https://happiness-predictor.herokuapp.com
 
@@ -49,14 +47,14 @@
   i18n: a
   gh_user: harrydurbin
   repo: tweet-spatial-clustering
-  img: /static/assets/img/landing/icontemp.png
-  # img: /static/assets/img/landing/tweetbird2.png
+  # img: /static/assets/img/landing/icontemp.png
+  img: /static/assets/img/landing/tweetbird2.png
   desc: Parsing geo-tagged tweet data, creating spatial clusters, and storing in geodatabases for display in GIS [QGIS,Python,PostGIS].
 
 - name: Rainwater Disinfection Simulator
   i18n: a
   gh_user: harrydurbin
   repo: rain-tank-disinfection
-  img: /static/assets/img/landing/icontemp.png
-  # img: /static/assets/img/landing/raintank.png
+  # img: /static/assets/img/landing/icontemp.png
+  img: /static/assets/img/landing/raintank.png
   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
