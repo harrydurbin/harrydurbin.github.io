@@ -23,7 +23,8 @@
   i18n: a
   gh_user: harrydurbin
   repo: chicago-bus-analysis
-  img: /static/assets/img/landing/iconbus.png
+  img: /static/assets/img/landing/icontemp.png
+  # img: /static/assets/img/landing/iconbus.png
   desc: Database schema design to optimize performance for chicago bus data [Python,Postgres].
 
 - name: Rose-tinted Glasses Web App
