@@ -45,9 +45,9 @@
   img: /static/assets/img/landing/tweetbird2.png
   desc: Parsing geo-tagged tweet data, creating spatial clusters, and storing in geodatabases for display in GIS [QGIS,Python,PostGIS].
 
-- name: Tweet Clustering and Analysis
-  i18n: a
-  gh_user: harrydurbin
-  repo: chilean-tweets
-  img: /static/assets/img/landing/iconchile.png
-  desc: Collecting geo-tagged tweets placed within the country of Chile and performing text analysis.
+# - name: Tweet Clustering and Analysis
+#   i18n: a
+#   gh_user: harrydurbin
+#   repo: chilean-tweets
+#   img: /static/assets/img/landing/iconchile.png
+#   desc: Collecting geo-tagged tweets placed within the country of Chile and performing text analysis.
