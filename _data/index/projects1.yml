@@ -1,0 +1,31 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: Happiness Level Predictor
+  i18n: a
+  gh_user: harrydurbin
+  img: /static/assets/img/landing/smile1.png
+  desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
+  altsite: https://happiness-predictor.herokuapp.com
+
+- name: Rainwater Disinfection Simulator
+  i18n: a
+  gh_user: harrydurbin
+  repo: rain-tank-disinfection
+  img: /static/assets/img/landing/raintank.png
+  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
+
+- name: Tweet Clustering and Analysis
+  i18n: a
+  gh_user: harrydurbin
+  repo: tweet-spatial-clustering
+  img: /static/assets/img/landing/tweetbird2.png
+  desc: Parsing geo-tagged tweet data, creating spatial clusters, and storing in geodatabases for display in GIS [QGIS,Python,PostGIS].
+
+# - name: Tweet Clustering and Analysis
+#   i18n: a
+#   gh_user: harrydurbin
+#   repo: chilean-tweets
+#   img: /static/assets/img/landing/iconchile.png
+#   desc: Collecting geo-tagged tweets placed within the country of Chile and performing text analysis.
