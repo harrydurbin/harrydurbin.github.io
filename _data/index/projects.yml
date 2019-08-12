@@ -15,14 +15,14 @@
   gh_user: harrydurbin
   repo: chicago-bus-analysis
   img: /static/assets/img/landing/iconbus.png
-  desc: Database schema design to optimize performance for chicago bus data [Python,Postgres].
+  desc: Database schema design to optimize performance for chicago bus data [Python,PostGIS].
 
 - name: Rose-tinted Glasses Web App
   i18n: a
   gh_user: harrydurbin
   img: /static/assets/img/landing/glasses.png
-  desc: Web app to collect data and gain insights to optimism / pessism levels. [Python,Flask].
-  altsite: https://clearcoloredglasses.herokuapp.com
+  desc: Web app to collect data and gain insights to optimism / pessism levels. [Flask,Postgres].
+  altsite: https://roseglasses.herokuapp.com
 
 - name: Happiness Level Predictor
   i18n: a
@@ -43,7 +43,7 @@
   gh_user: harrydurbin
   repo: tweet-spatial-clustering
   img: /static/assets/img/landing/tweetbird2.png
-  desc: Parsing geo-tagged tweet data, creating spatial clusters, and storing in geodatabases for display in GIS [QGIS,Python,PostGIS].
+  desc: Parsing geo-tagged tweet data, creating spatial clusters, and storing in geodatabases for display in GIS [Python,PostGIS,QGIS].
 
 # - name: Tweet Clustering and Analysis
 #   i18n: a
