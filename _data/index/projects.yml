@@ -16,7 +16,7 @@
   # repo: chicago-bus-analysis
   img: /static/assets/img/landing/iconbus.png
   desc: Database schema design to optimize performance for chicago bus data [Python,PostGIS].
-  altsite: https://chicago-bus-routes.herokuapp.com
+  altsite: https://chicago-bus.herokuapp.com
 
 - name: Rose-tinted Glasses Web App
   i18n: a
