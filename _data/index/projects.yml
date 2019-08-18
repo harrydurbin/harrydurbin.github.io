@@ -34,8 +34,8 @@
 
 - name: Rainwater Disinfection Simulator
   i18n: a
-  gh_user: harrydurbin
-  repo: rain-tank-disinfection
+  # gh_user: harrydurbin
+  # repo: rain-tank-disinfection
   img: /static/assets/img/landing/raintank.png
   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
   altsite: /pdfjs-viewer/web/viewer.html
