@@ -9,11 +9,14 @@
 - name: Haiku
   href: /haiku/
 
-- name: Learn
-  href: /learn/
+- name: Python
+  href: /python/
 
-- name: Travels
-  href: /travels/
+- name: SQL
+  href: /sql/
+
+- name: Linux
+  href: /linux/  
 
 # - name: Politics
 #   href: /politics/

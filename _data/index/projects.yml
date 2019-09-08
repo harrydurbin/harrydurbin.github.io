@@ -2,14 +2,6 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
-
-- name: IoT Temperature Monitoring
-  i18n: a
-  gh_user: harrydurbin
-  img: /static/assets/img/landing/icontemp.png
-  desc: Raspberry Pi with temperature sensor to monitor temperature and make indoor forecasts using a predictive model. [Python,Sqlite].
-  altsite: https://plot.ly/~harry.durbin/97.embed
-
 - name: Chicago Bus Analysis
   i18n: a
   gh_user: harrydurbin
@@ -17,6 +9,21 @@
   img: /static/assets/img/landing/iconbus.png
   desc: Database schema design to optimize performance for chicago bus data [Python,PostGIS].
   altsite: https://chicago-bus.herokuapp.com
+
+- name: Tweet Clustering and Analysis
+  i18n: a
+  gh_user: harrydurbin
+  repo: tweet-data
+  img: /static/assets/img/landing/tweetbird2.png
+  desc: Parsing geo-tagged tweet data, creating spatial clusters, and storing in geodatabases for display in GIS [Python,PostGIS,QGIS].
+
+- name: Rainwater Disinfection Simulator
+  i18n: a
+  # gh_user: harrydurbin
+  # repo: rain-tank-disinfection
+  img: /static/assets/img/landing/raintank.png
+  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
+  altsite: /pdfjs-viewer/web/viewer.html
 
 - name: Rose-tinted Glasses Web App
   i18n: a
@@ -32,20 +39,12 @@
   desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
   altsite: https://happiness-predictor.herokuapp.com
 
-- name: Rainwater Disinfection Simulator
-  i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
-  img: /static/assets/img/landing/raintank.png
-  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
-  altsite: /pdfjs-viewer/web/viewer.html
-
-- name: Tweet Clustering and Analysis
+- name: IoT Temperature Monitoring
   i18n: a
   gh_user: harrydurbin
-  repo: tweet-spatial-clustering
-  img: /static/assets/img/landing/tweetbird2.png
-  desc: Parsing geo-tagged tweet data, creating spatial clusters, and storing in geodatabases for display in GIS [Python,PostGIS,QGIS].
+  img: /static/assets/img/landing/icontemp.png
+  desc: Raspberry Pi with temperature sensor to monitor temperature and make indoor forecasts using a predictive model. [Python,Sqlite].
+  altsite: https://plot.ly/~harry.durbin/97.embed
 
 # - name: Tweet Clustering and Analysis
 #   i18n: a
