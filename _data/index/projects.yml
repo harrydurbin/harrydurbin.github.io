@@ -35,9 +35,10 @@
 - name: Happiness Level Predictor
   i18n: a
   gh_user: harrydurbin
+  repo: happiness-level-predictor
   img: /static/assets/img/landing/smile1.png
   desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
-  altsite: https://happiness-predictor.herokuapp.com
+  altsite: #https://happiness-predictor.herokuapp.com
 
 - name: IoT Temperature Monitoring
   i18n: a
