@@ -3,7 +3,7 @@
 # Website settings
 title: harry
 description: Harry's site
-keywords: Harry, Harrison, Durbin
+keywords: Harry, Harrison, Durbin, "Harry Durbin"
 baseurl:   # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
 url: http://harrydurbin.github.io  # url should be 'http://<github_username>.github.io/homepage' as before
 #url: http://www.harrydurbin.com/homepage
@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-database
     - name: icon-postgres
-  desc: an engineer with passion for water and data  # Describe yourself.
+  desc: an engineer who enjoys water and data projects # Describe yourself.
 
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.
