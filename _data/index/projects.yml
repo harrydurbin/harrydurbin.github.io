@@ -45,7 +45,7 @@
   gh_user: harrydurbin
   img: /static/assets/img/landing/icontemp.png
   desc: Raspberry Pi with temperature sensor to monitor temperature and make indoor forecasts using a predictive model. [Python,Sqlite].
-  altsite: https://plot.ly/~harry.durbin/108.embed
+  altsite: /test.html #https://plot.ly/~harry.durbin/108.embed
 
 # - name: Tweet Clustering and Analysis
 #   i18n: a
