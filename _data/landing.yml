@@ -36,14 +36,14 @@
 #   tpl: drawings.html
 #   css: project
 
-- id: art
-  i18n: nav.art
-  name: Art
-  tpl: art.html
-  css: projects
-
 - id: links
   i18n: nav.link
   name: Photos
   tpl: links.html
   css: projects #contact
+
+- id: art
+  i18n: nav.art
+  name: Art
+  tpl: art.html
+  css: projects
