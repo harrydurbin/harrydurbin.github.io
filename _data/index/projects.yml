@@ -10,11 +10,11 @@
   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
   altsite: /pdfjs-viewer/web/viewer.html
 
-- name: IoT Temperature Monitoring
+- name: Indoor Temperature Forecast
   i18n: a
   gh_user: harrydurbin
   img: /static/assets/img/landing/icontemp.png
-  desc: Raspberry Pi with temperature sensor to monitor temperature and make indoor forecasts using a predictive model. [Python,Sqlite].
+  desc: IoT Raspberry Pi with temperature sensor to monitor temperature and make indoor forecasts using a predictive model. [Python,Sqlite].
   altsite: /IoT.html #https://plot.ly/~harry.durbin/108.embed
 
 - name: Chicago Bus Analysis
