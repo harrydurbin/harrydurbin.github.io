@@ -28,7 +28,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-database
     - name: icon-postgres
-  desc: an engineer motivated by new technology, sustainability, and creating things.  # Describe yourself.
+  desc: an engineer with passion for water and data  # Describe yourself.
 
 # comment
 #disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

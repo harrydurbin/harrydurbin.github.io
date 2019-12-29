@@ -6,17 +6,17 @@
 - name: Quotations
   href: /quotations/
 
-- name: Haiku
-  href: /haiku/
-
-- name: Python
-  href: /python/
-
-- name: SQL
-  href: /sql/
-
-- name: Linux
-  href: /linux/  
+# - name: Haiku
+#   href: /haiku/
+#
+# - name: Python
+#   href: /python/
+#
+# - name: SQL
+#   href: /sql/
+#
+# - name: Linux
+#   href: /linux/
 
 # - name: Politics
 #   href: /politics/
