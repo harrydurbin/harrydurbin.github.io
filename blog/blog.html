@@ -26,6 +26,8 @@ permalink: /blog/
                             <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title">
                                 {{ post.title }}
                             </a>
+                            <br>
+                            {{ post.content }}
                             <!-- <div class="vote-info"> -->
                             <!-- {% if site.disqus %}
                                 <i class="fa fa-comments-o"> </i> <a>Comments (<span class="disqus-comment-count" data-disqus-url="{{ site.url }}{{ post.url }}">0</span>)</a>
@@ -42,8 +44,8 @@ permalink: /blog/
                         </div> -->
                         <!-- <a href="{{ post.url | prepend: site.baseurl }}" class="vote-title"> -->
                             <!-- {{ post.title }} -->
-                            <br>
-                            {{ post.content }}
+                            <!-- <br>
+                            {{ post.content }} -->
                         <!-- </a> -->
                         <!-- <div class="vote-info">
                         {% if site.changyan %}
