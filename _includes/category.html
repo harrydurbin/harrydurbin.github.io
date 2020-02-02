@@ -42,7 +42,8 @@ $(function(){
                                 <!-- <span class="text-muted"><i class="fa fa-clock-o"></i> {{ post.date | date: "%-d %b %Y" }}</span> -->
                             </div>
                             <p>
-                                {{ post.content | strip_html | truncate:500 }}
+                              {{ post.content | truncate:500 }}
+                                <!-- {{ post.content | strip_html | truncate:500 }} -->
                             </p>
                             <!-- <div class="row"> -->
                                 <!-- <div class="col-md-6">
