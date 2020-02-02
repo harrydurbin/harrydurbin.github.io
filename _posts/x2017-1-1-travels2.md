@@ -9,5 +9,3 @@ tags: []
 icon:
 ---
 adfadf
-<br>
-<!-- <img src="https://github.com/harrydurbin/harrydurbin.github.io/blob/master/_posts/img/margarita_and_kurt.png?raw=true" width="800px" /> -->
