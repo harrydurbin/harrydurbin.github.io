@@ -36,11 +36,11 @@
 #   tpl: drawings.html
 #   css: project
 
-# - id: links
-#   i18n: nav.link
-#   name: Photos
-#   tpl: links.html
-#   css: projects #contact
+- id: links
+  i18n: nav.link
+  name: Photos
+  tpl: links.html
+  css: projects #contact
 
 - id: art
   i18n: nav.art
