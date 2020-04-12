@@ -29,7 +29,12 @@
   name: Blog
   tpl: blog.html
   css: testimonials navy-section
-
+  
+- id: map
+  i18n: nav.map
+  name: Map
+  tpl: map.html
+  css: projects
 # - id: drawings
 #   i18n: nav.drawings
 #   name: Drawings
@@ -46,10 +51,4 @@
   i18n: nav.art
   name: Art
   tpl: art.html
-  css: projects
-
-- id: map
-  i18n: nav.map
-  name: Map
-  tpl: map.html
   css: projects
