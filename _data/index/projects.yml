@@ -15,7 +15,7 @@
   gh_user: harrydurbin
   img: /static/assets/img/landing/icontemp.png
   desc: IoT Raspberry Pi with temperature sensor to monitor temperature and make indoor forecasts using a predictive model. [Python,Sqlite].
-  altsite: /IoT.html #https://plot.ly/~harry.durbin/108.embed
+  altsite: https://plot.ly/~harry.durbin/108.embed # /IoT.html #
 
 - name: Chicago Bus Analysis
   i18n: a
