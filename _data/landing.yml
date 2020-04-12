@@ -42,14 +42,14 @@
   tpl: links.html
   css: projects #contact
 
-# - id: art
-#   i18n: nav.art
-#   name: Art
-#   tpl: art.html
-#   css: projects
-
 - id: map
   i18n: nav.map
   name: Map
   tpl: map.html
+  css: projects
+
+- id: art
+  i18n: nav.art
+  name: Art
+  tpl: art.html
   css: projects
