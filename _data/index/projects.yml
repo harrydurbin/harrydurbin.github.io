@@ -2,13 +2,30 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
+- name: Groundwater Banking Project
+  i18n: a
+  # gh_user: harrydurbin
+  # repo: rain-tank-disinfection
+  img: /static/assets/img/landing/raintank.png
+  desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
+  # altsite: /pdfjs-viewer1/web/viewer.html
+
+- name: Steel Storage Tank Project
+  i18n: a
+  # gh_user: harrydurbin
+  # repo: rain-tank-disinfection
+  img: /static/assets/img/landing/raintank.png
+  desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
+  # altsite: /pdfjs-viewer1/web/viewer.html
+
+
 - name: Rainwater Disinfection Simulator
   i18n: a
   # gh_user: harrydurbin
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/raintank.png
   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
-  altsite: /pdfjs-viewer1/web/viewer.html
+  altsite: /pdfjs-viewer/web/viewer.html
 
 - name: Indoor Temperature Forecast
   i18n: a
@@ -17,6 +34,13 @@
   desc: IoT Raspberry Pi with temperature sensor to monitor temperature and make indoor forecasts using a predictive model. [Python,Sqlite].
   altsite: https://plot.ly/~harry.durbin/97.embed # /IoT.html #
 
+- name: Tweet Clustering and Analysis
+  i18n: a
+  gh_user: harrydurbin
+  repo: tweet-data
+  img: /static/assets/img/landing/tweetbird2.png
+  desc: Parsing geo-tagged tweet data, creating spatial clusters, and storing in geodatabases for display in GIS [Python,PostGIS,QGIS].
+
 - name: Chicago Bus Analysis
   i18n: a
   gh_user: harrydurbin
@@ -24,13 +48,6 @@
   img: /static/assets/img/landing/iconbus.png
   desc: Database schema design to optimize performance for chicago bus data [Python,PostGIS].
   # altsite: https://chicago-bus.herokuapp.com
-
-- name: Tweet Clustering and Analysis
-  i18n: a
-  gh_user: harrydurbin
-  repo: tweet-data
-  img: /static/assets/img/landing/tweetbird2.png
-  desc: Parsing geo-tagged tweet data, creating spatial clusters, and storing in geodatabases for display in GIS [Python,PostGIS,QGIS].
 
 - name: Rose-tinted Glasses Web App
   i18n: a
