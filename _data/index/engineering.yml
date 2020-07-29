@@ -7,7 +7,7 @@
   # gh_user: harrydurbin
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/distillation.png
-  desc: Project to create a new zero-discharge wastewater treatment facilty [Matlab].
+  desc: Research to determine the feasibility of zero-gravity seawater distillation as an alternative to Reverse Osmosis water plants.
   altsite: /pdfjs-viewer/web/viewer.html
 
 - name: Rainwater Disinfection Simulator
