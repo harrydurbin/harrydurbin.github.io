@@ -8,7 +8,7 @@
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/raintank.png
   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
-  altsite: /pdfjs-viewer/web/viewer.html
+  altsite: /pdfjs-viewer1/web/viewer.html
 
 - name: Indoor Temperature Forecast
   i18n: a
