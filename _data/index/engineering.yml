@@ -40,7 +40,7 @@
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/water-tank.jpg
   desc: Project to store water in a 2 million gallon welded steel tank. [Civil3D].
-  # altsite: /pdfjs-viewer/web/viewer.html
+  altsite: /pdfjs-viewer/web/viewer.html
 
 - name: Water Main Pipeline Project
   i18n: a
@@ -48,7 +48,7 @@
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/water-pipe.jpg
   desc: Project to construct a 24-inch water distribution pipeline. [Civil3D].
-  # altsite: /pdfjs-viewer/web/viewer.html
+  altsite: /pdfjs-viewer/web/viewer.html
 
 
 
