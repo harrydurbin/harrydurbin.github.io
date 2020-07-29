@@ -8,7 +8,7 @@
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/distillation.png
   desc: Project to create a new zero-discharge wastewater treatment facilty [Matlab].
-  # altsite: /pdfjs-viewer/web/viewer.html
+  altsite: /pdfjs-viewer/web/viewer.html
 
 - name: Rainwater Disinfection Simulator
   i18n: a
@@ -24,7 +24,15 @@
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/well.png
   desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
-  # altsite: /pdfjs-viewer/web/viewer.html
+  altsite: https://www.aaees.org/e3scompetition/2015grandprize-environmentalsustainability.php
+
+- name: Wastewater Treatment Plant Project
+  i18n: a
+  # gh_user: harrydurbin
+  # repo: rain-tank-disinfection
+  img: /static/assets/img/landing/plant.png
+  desc: Project to create a new zero-discharge wastewater treatment facilty [Civil3D].
+  altsite: https://www.wwdmag.com/fillmore-water-recycling-plant-wins-project-year-award
 
 - name: Steel Storage Tank Project
   i18n: a
@@ -42,13 +50,7 @@
   desc: Project to construct a 24-inch water distribution pipeline. [Civil3D].
   # altsite: /pdfjs-viewer/web/viewer.html
 
-- name: Wastewater Treatment Plant Project
-  i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
-  img: /static/assets/img/landing/plant.png
-  desc: Project to create a new zero-discharge wastewater treatment facilty [Civil3D].
-  # altsite: /pdfjs-viewer/web/viewer.html
+
 
 
 #
