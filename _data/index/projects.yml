@@ -2,21 +2,21 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
-- name: Groundwater Banking Project
-  i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
-  img: /static/assets/img/landing/raintank.png
-  desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
-  # altsite: /pdfjs-viewer1/web/viewer.html
-
-- name: Steel Storage Tank Project
-  i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
-  img: /static/assets/img/landing/raintank.png
-  desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
-  # altsite: /pdfjs-viewer1/web/viewer.html
+# - name: Groundwater Banking Project
+#   i18n: a
+#   # gh_user: harrydurbin
+#   # repo: rain-tank-disinfection
+#   img: /static/assets/img/landing/raintank.png
+#   desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
+#   altsite: /pdfjs-viewer/web/viewer.html
+#
+# - name: Steel Storage Tank Project
+#   i18n: a
+#   # gh_user: harrydurbin
+#   # repo: rain-tank-disinfection
+#   img: /static/assets/img/landing/raintank.png
+#   desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
+#   altsite: /pdfjs-viewer/web/viewer.html
 
 
 - name: Rainwater Disinfection Simulator
