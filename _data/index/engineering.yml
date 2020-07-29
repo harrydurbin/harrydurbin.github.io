@@ -10,13 +10,13 @@
   desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
   altsite: /pdfjs-viewer/web/viewer.html
 
-- name: Steel Storage Tank Project
-  i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
-  img: /static/assets/img/landing/raintank.png
-  desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
-  altsite: /pdfjs-viewer/web/viewer.html
+# - name: Steel Storage Tank Project
+#   i18n: a
+#   # gh_user: harrydurbin
+#   # repo: rain-tank-disinfection
+#   img: /static/assets/img/landing/raintank.png
+#   desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
+#   altsite: /pdfjs-viewer/web/viewer.html
 #
 #
 # - name: Rainwater Disinfection Simulator
