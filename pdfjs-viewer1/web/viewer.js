@@ -5125,7 +5125,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultUrl: {
-    value: 'presentation.pdf',
+    value: 'HarryDurbin_Resume.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
