@@ -34,13 +34,6 @@
   desc: Database schema design to optimize performance for chicago bus data [Python,PostGIS].
   # altsite: https://chicago-bus.herokuapp.com
 
-- name: Rose-tinted Glasses Web App
-  i18n: a
-  gh_user: harrydurbin
-  img: /static/assets/img/landing/glasses.png
-  desc: Web app to collect data and gain insights to optimism / pessism levels. [Flask,Postgres].
-  altsite: https://roseglasses.herokuapp.com
-
 - name: Happiness Level Predictor
   i18n: a
   gh_user: harrydurbin
@@ -48,6 +41,20 @@
   img: /static/assets/img/landing/smile1.png
   desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
   altsite: #https://happiness-predictor.herokuapp.com
+
+- name: Ride-share Fare Predictor
+  i18n: a
+  gh_user: harrydurbin
+  repo: taxi-fare-predictor
+  img: /static/assets/img/landing/ride.png
+  desc: Regression model using trees to predict fare cost.
+
+- name: Rose-tinted Glasses Web App
+  i18n: a
+  gh_user: harrydurbin
+  img: /static/assets/img/landing/glasses.png
+  desc: Web app to collect data and gain insights to optimism / pessism levels. [Flask,Postgres].
+  altsite: https://roseglasses.herokuapp.com
 
 # - name: Egg Drop Accelerometer
 #   i18n: a

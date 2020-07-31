@@ -30,12 +30,6 @@
   tpl: projects.html
   css: project
 
-- id: blog
-  i18n: nav.blog
-  name: Blog
-  tpl: blog.html
-  css: testimonials navy-section
-
 # - id: drawings
 #   i18n: nav.drawings
 #   name: Drawings
@@ -53,6 +47,12 @@
   name: Art
   tpl: art.html
   css: projects
+
+- id: blog
+  i18n: nav.blog
+  name: Blog
+  tpl: blog.html
+  css: testimonials navy-section
 
 - id: map
   i18n: nav.map
