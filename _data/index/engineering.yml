@@ -46,6 +46,6 @@
   i18n: a
   # gh_user: harrydurbin
   # repo: rain-tank-disinfection
-  img: /static/assets/img/landing/water-pipe.png
-  desc: Project model flow in a complex, interconnected stormdrain system [HEC-RAS].
+  img: /static/assets/img/landing/network.png
+  desc: Hydraulic model for a complex, interconnected storm drain system at a large airport [HEC-RAS].
   # altsite: /pdfjs-viewer/web/viewer.html
