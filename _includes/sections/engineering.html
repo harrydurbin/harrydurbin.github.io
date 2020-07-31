@@ -25,9 +25,6 @@
                     <h4>
                     {% if project.altsite %}
                     <a href="{{ project.altsite }}" target="_blank"><span class="navy">{{ project.name }}</span></a>
-                    <!-- {% endif %} -->
-                    <!-- {% if project.repo %}
-                    <a href="https://github.com/{{ project.gh_user }}/{{ project.repo }}" target="_blank"><span class="navy">{{ project.name }}</span></a> -->
                     {% else %}
                     <span class="navy">{{ project.name }}</span>
                     {% endif %}
