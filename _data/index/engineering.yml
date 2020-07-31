@@ -4,48 +4,34 @@
 
 - name: Novel, Low-Energy Water Distillation Method Study
   i18n:
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
   img: /static/assets/img/landing/distillation1.png
   desc: Research to determine the feasibility of zero-gravity seawater distillation as an alternative to Reverse Osmosis water plants as part of my Master's thesis.
   altsite: https://www.youtube.com/watch?v=eKf4NpbC6OY
 
 - name: Rainwater Disinfection Simulator
   i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
   img: /static/assets/img/landing/raintank.png
   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
   altsite: /pdfjs-viewer/web/viewer.html
 
 - name: Groundwater Banking Project
   i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
   img: /static/assets/img/landing/well.png
   desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use. Was lead civil design / project engineer responsible all construction plans for this award winning project [Civil3D].
   altsite: https://www.aaees.org/e3scompetition/2015grandprize-environmentalsustainability.php
 
 - name: Wastewater Treatment Plant Project
   i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
   img: /static/assets/img/landing/plant.png
   desc: Project to create a new zero-discharge wastewater treatment facility. Was lead civil design engineer and created all construction plans for this award-winning project [Civil3D].
   altsite: https://www.wwdmag.com/fillmore-water-recycling-plant-wins-project-year-award
 
 - name: Steel Storage Tank Project
   i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
   img: /static/assets/img/landing/water-tank.png
   desc: Project to store water in a 2 million gallon welded steel tank. [Civil3D].
-  # altsite: /pdfjs-viewer2/web/viewer.html
 
-- name: Airport Stormdrain Hydraulic Model
+- name: Stormwater Flow Hydraulic Model
   i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
   img: /static/assets/img/landing/network.png
-  desc: Hydraulic model for a complex, interconnected storm drain system at a large airport [HEC-RAS].
-  # altsite: /pdfjs-viewer/web/viewer.html
+  desc: Hydraulic model for a complex, interconnected storm drain system at a large airport for 25, 50, and 100-year storm events [HEC-RAS].
