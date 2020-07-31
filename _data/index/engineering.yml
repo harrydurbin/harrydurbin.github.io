@@ -7,7 +7,7 @@
   # gh_user: harrydurbin
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/distillation.png
-  desc: Research to determine the feasibility of zero-gravity seawater distillation as an alternative to Reverse Osmosis water plants.
+  desc: Research to determine the feasibility of zero-gravity seawater distillation as an alternative to Reverse Osmosis water plants as part of my Master's thesis.
   altsite: https://www.youtube.com/watch?v=eKf4NpbC6OY
 
 - name: Rainwater Disinfection Simulator
@@ -23,7 +23,7 @@
   # gh_user: harrydurbin
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/well.png
-  desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use [Civil3D].
+  desc: Project to capture low-cost water for underground storage during wet periods and recover this water for later use. Was lead civil design / project engineer responsible all construction plans for this award winning project [Civil3D].
   altsite: https://www.aaees.org/e3scompetition/2015grandprize-environmentalsustainability.php
 
 - name: Wastewater Treatment Plant Project
@@ -31,21 +31,21 @@
   # gh_user: harrydurbin
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/plant.png
-  desc: Project to create a new zero-discharge wastewater treatment facilty [Civil3D].
+  desc: Project to create a new zero-discharge wastewater treatment facility. Was lead civil design engineer and created all construction plans for this award-winning project [Civil3D].
   altsite: https://www.wwdmag.com/fillmore-water-recycling-plant-wins-project-year-award
-
+  
 - name: Steel Storage Tank Project
   i18n: a
   # gh_user: harrydurbin
   # repo: rain-tank-disinfection
-  img: /static/assets/img/landing/water-tank.jpg
+  img: /static/assets/img/landing/water-tank.png
   desc: Project to store water in a 2 million gallon welded steel tank. [Civil3D].
-  altsite: /pdfjs-viewer2/web/viewer.html
+  # altsite: /pdfjs-viewer2/web/viewer.html
 
-- name: Water Main Pipeline Project
-  i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
-  img: /static/assets/img/landing/water-pipe.jpg
-  desc: Project to construct a 24-inch water distribution pipeline. [Civil3D].
-  altsite: /pdfjs-viewer/web/viewer.html
+# - name: Water Main Pipeline Project
+#   i18n: a
+#   # gh_user: harrydurbin
+#   # repo: rain-tank-disinfection
+#   img: /static/assets/img/landing/water-pipe.jpg
+#   desc: Project to construct a 24-inch water distribution pipeline. [Civil3D].
+#   altsite: /pdfjs-viewer/web/viewer.html
