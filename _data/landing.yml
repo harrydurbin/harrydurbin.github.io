@@ -12,13 +12,6 @@
 #   tpl: career.html
 #   css: timeline
 
-- id: map
-  i18n: nav.map
-  name: Map
-  tpl: map.html
-  css: projects
-
-
 - id: skills
   i18n: nav.skills
   name: Skills
@@ -36,6 +29,12 @@
   name: Data
   tpl: projects.html
   css: project
+
+- id: map
+  i18n: nav.map
+  name: Map
+  tpl: map.html
+  css: projects
 
 - id: blog
   i18n: nav.blog
