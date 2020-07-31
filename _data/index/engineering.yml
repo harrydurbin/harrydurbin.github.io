@@ -42,10 +42,10 @@
   desc: Project to store water in a 2 million gallon welded steel tank. [Civil3D].
   # altsite: /pdfjs-viewer2/web/viewer.html
 
-# - name: Water Main Pipeline Project
-#   i18n: a
-#   # gh_user: harrydurbin
-#   # repo: rain-tank-disinfection
-#   img: /static/assets/img/landing/water-pipe.jpg
-#   desc: Project to construct a 24-inch water distribution pipeline. [Civil3D].
-#   altsite: /pdfjs-viewer/web/viewer.html
+- name: Airport Stormdrain Hydraulic Model
+  i18n: a
+  # gh_user: harrydurbin
+  # repo: rain-tank-disinfection
+  img: /static/assets/img/landing/water-pipe.png
+  desc: Project model flow in a complex, interconnected stormdrain system [HEC-RAS].
+  # altsite: /pdfjs-viewer/web/viewer.html
