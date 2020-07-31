@@ -8,17 +8,17 @@
     <div class="row">
         {% for project in site.data.index.engineering %}
             {% assign loopindex = forloop.index | modulo: 4 %}
-            {% if forloop.last %}
-                {% if forloop.last == forloop.first %}
+            <!-- {% if forloop.last %} -->
+                <!-- {% if forloop.last == forloop.first %}
                   <div class="col-sm-3 wow">
                   <div class="col-sm-6 wow col-sm-offset-6 zoomIn">
                 {% else %}
                   <div class="col-sm-3 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
                 {% endif %}
-            {% else %}
-              <div class="col-sm-3 {% endif %}">
-              <div class="col-sm-2 wow">
- {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}
+            {% else %}  -->
+              <!-- <div class="col-sm-3 {% endif %}"> -->
+              <div class="col-sm-4 wow">
+ <!-- {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %} -->
                 <div class="team-member">
                   <!-- img-circle -->
                     <img src="{{ project.img | prepend: site.baseurl }}" class="img-fluid  img-small" alt="">
