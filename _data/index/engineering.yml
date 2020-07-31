@@ -8,7 +8,7 @@
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/distillation.png
   desc: Research to determine the feasibility of zero-gravity seawater distillation as an alternative to Reverse Osmosis water plants.
-  altsite: /pdfjs-viewer/web/viewer.html
+  altsite: https://www.youtube.com/watch?v=eKf4NpbC6OY
 
 - name: Rainwater Disinfection Simulator
   i18n: a
@@ -40,15 +40,15 @@
   # repo: rain-tank-disinfection
   img: /static/assets/img/landing/water-tank.jpg
   desc: Project to store water in a 2 million gallon welded steel tank. [Civil3D].
-  altsite: /pdfjs-viewer/web/viewer.html
+  altsite: /pdfjs-viewer2/web/viewer.html
 
-- name: Water Main Pipeline Project
-  i18n: a
-  # gh_user: harrydurbin
-  # repo: rain-tank-disinfection
-  img: /static/assets/img/landing/water-pipe.jpg
-  desc: Project to construct a 24-inch water distribution pipeline. [Civil3D].
-  altsite: /pdfjs-viewer/web/viewer.html
+# - name: Water Main Pipeline Project
+#   i18n: a
+#   # gh_user: harrydurbin
+#   # repo: rain-tank-disinfection
+#   img: /static/assets/img/landing/water-pipe.jpg
+#   desc: Project to construct a 24-inch water distribution pipeline. [Civil3D].
+#   altsite: /pdfjs-viewer/web/viewer.html
 
 
 

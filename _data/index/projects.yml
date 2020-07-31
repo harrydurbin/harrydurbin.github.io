@@ -49,12 +49,12 @@
   desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
   altsite: #https://happiness-predictor.herokuapp.com
 
-- name: Egg Drop Accelerometer
-  i18n: a
-  gh_user: harrydurbin
-  repo: eggdrop-eggcelerometer
-  img: /static/assets/img/landing/accelerometer.png
-  desc: Arduino accelerometer sensor to detect rate of acceleration in a plastic egg.
+# - name: Egg Drop Accelerometer
+#   i18n: a
+#   gh_user: harrydurbin
+#   repo: eggdrop-eggcelerometer
+#   img: /static/assets/img/landing/accelerometer.png
+#   desc: Arduino accelerometer sensor to detect rate of acceleration in a plastic egg.
 
 
 
