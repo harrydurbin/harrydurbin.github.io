@@ -6,7 +6,8 @@
   i18n:
   img: /static/assets/img/landing/distillation1.png
   desc: Research to determine the feasibility of zero-gravity seawater distillation as an alternative to Reverse Osmosis water plants as part of my Master's thesis.
-  altsite: https://www.youtube.com/watch?v=eKf4NpbC6OY
+  altsite: /pdfjs-viewer3/web/viewer.html
+  # https://www.youtube.com/watch?v=eKf4NpbC6OY
 
 - name: Rainwater Disinfection Simulator
   i18n: a

@@ -5125,7 +5125,7 @@ var defaultOptions = {
     kind: OptionKind.VIEWER
   },
   defaultUrl: {
-    value: 'HarryDurbin_Resume.pdf',
+    value: 'HarryDurbin_LowEnergyDistillation.pdf',
     kind: OptionKind.VIEWER
   },
   defaultZoomValue: {
