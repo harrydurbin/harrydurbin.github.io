@@ -105,9 +105,37 @@
     detail: San Jose, California, USA
     i18n: company_a_desc
   date:
-    detail: "2017"
+    detail: "2017-2018"
     i18n: company_a_date
   job:
     detail: Project Engineer #In the Capital Planning department, compiled data for over a thousand infrastructure improvement projects throughout California.
+    i18n: company_a_job
+  icon: fa-plus
+
+- name:
+    detail: City of Watsonville
+    i18n: company_a
+  desc:
+    detail: Watsonville, California, USA
+    i18n: company_a_desc
+  date:
+    detail: "2018-2020"
+    i18n: company_a_date
+  job:
+    detail: Senior Engineer #In the Capital Planning department, compiled data for over a thousand infrastructure improvement projects throughout California.
+    i18n: company_a_job
+  icon: fa-plus
+
+- name:
+    detail: Metropolitan Water District of Southern California
+    i18n: company_a
+  desc:
+    detail: Parker Dam, California, USA
+    i18n: company_a_desc
+  date:
+    detail: ""
+    i18n: company_a_date
+  job:
+    detail: Colorado River Aqueduct Plant Engineer #In the Capital Planning department, compiled data for over a thousand infrastructure improvement projects throughout California.
     i18n: company_a_job
   icon: fa-plus
