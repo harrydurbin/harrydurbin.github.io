@@ -1,0 +1,9 @@
+According to the documentation of ImageMagick I suggest to use -geometry x600, whereas x600 means that the new image has a heigth of 600 px with the same aspect ratio as the old image.
+
+For a single image you could run:
+
+convert input.png -geometry x275 output.png
+If you prefer to convert all images of a folder in one run, switch to it (i.e. cd ~/Pictures/panoramas/) and use
+
+mogrify -geometry x275 *.jpg
+But be careful with that, because it overwrites the original image files.
