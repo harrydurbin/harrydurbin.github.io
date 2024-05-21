@@ -24,15 +24,15 @@
   gh_user: harrydurbin
   repo: tweet-data
   img: /static/assets/img/landing/tweetbird2.png
-  desc: Parsing geo-tagged tweet data, creating spatial clusters, and storing in geodatabases for display in GIS [Python,PostGIS,QGIS].
+  desc: Parsing 1M+ geo-tagged tweets, creating spatial clusters, and storing in databases for display in GIS [Python,PostGIS,QGIS].
 
 - name: Chicago Bus Analysis
   i18n: a
   gh_user: harrydurbin
-  # repo: chicago-bus-analysis
+  repo: chicago-bus-analysis
   img: /static/assets/img/landing/iconbus.png
   desc: Database schema design to optimize performance for chicago bus data [Python,PostGIS].
-  altsite: https://chicago-bus.herokuapp.com
+  # altsite: https://chicago-bus.herokuapp.com
 
 - name: Happiness Level Predictor
   i18n: a
