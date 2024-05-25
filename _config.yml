@@ -39,8 +39,8 @@ author:  # change following line to your infomation.
 # analytics
 # google analytics
 google_analytics: G-PVZTJBWHL2
-# ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-#   id: UA-94015445-1
+ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
+  id: G-PVZTJBWHL2 #UA-94015445-1
 
 # <!-- Google tag (gtag.js) -->
 # <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVZTJBWHL2"></script>
