@@ -39,7 +39,17 @@ author:  # change following line to your infomation.
 # analytics
 # google analytics
 ga:  # if you wanna this feature, go to https://www.google.com/analytics/ to get your configuration; if not, comment following line.
-  id: UA-94015445-1
+  id: G-PVZTJBWHL2 #UA-94015445-1
+
+# <!-- Google tag (gtag.js) -->
+# <script async src="https://www.googletagmanager.com/gtag/js?id=G-PVZTJBWHL2"></script>
+# <script>
+#   window.dataLayer = window.dataLayer || [];
+#   function gtag(){dataLayer.push(arguments);}
+#   gtag('js', new Date());
+#
+#   gtag('config', 'G-PVZTJBWHL2');
+# </script>
 
 # growingIO
 gio:  # if you wanna this feature, go to https://www.growingio.com/ to get your configuration; if not, comment following line.
