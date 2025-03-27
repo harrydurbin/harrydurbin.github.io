@@ -49,12 +49,12 @@
   img: /static/assets/img/landing/rio.jpg
   desc: Script to link thousands of nearly connected shapefile lines for a road network in Brazil.
 
-- name: Rose-tinted Glasses Web App
-  i18n: a
-  gh_user: harrydurbin
-  img: /static/assets/img/landing/glasses.png
-  desc: Web app to collect data and gain insights to optimism / pessism levels. [Flask,Postgres].
-  altsite: https://roseglasses.herokuapp.com
+# - name: Rose-tinted Glasses Web App
+#   i18n: a
+#   gh_user: harrydurbin
+#   img: /static/assets/img/landing/glasses.png
+#   desc: Web app to collect data and gain insights to optimism / pessism levels. [Flask,Postgres].
+#   altsite: https://roseglasses.herokuapp.com
 
 # - name: Egg Drop Accelerometer
 #   i18n: a
@@ -63,12 +63,12 @@
 #   img: /static/assets/img/landing/accelerometer.png
 #   desc: Arduino accelerometer sensor to detect rate of acceleration in a plastic egg.
 
-- name: Ride-share Fare Predictor
-  i18n: a
-  gh_user: harrydurbin
-  repo: taxi-fare-predictor
-  img: /static/assets/img/landing/ride.png
-  desc: Regression model using trees to predict fare cost.
+# - name: Ride-share Fare Predictor
+#   i18n: a
+#   gh_user: harrydurbin
+#   repo: taxi-fare-predictor
+#   img: /static/assets/img/landing/ride.png
+#   desc: Regression model using trees to predict fare cost.
 
 
   # name: Tweet Clustering and Analysis
