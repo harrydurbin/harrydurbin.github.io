@@ -12,21 +12,21 @@
   # desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
   # altsite: /pdfjs-viewer/web/viewer.html
 
-  name: Indoor Temperature Forecast
+- name: Indoor Temperature Forecast
   i18n: a
   gh_user: harrydurbin
   img: /static/assets/img/landing/icontemp.png
   desc: IoT Raspberry Pi with temperature sensor to monitor temperature and make indoor forecasts using a predictive model. [Python,Sqlite].
   altsite: https://plot.ly/~harry.durbin/97.embed # /IoT.html 
 
-  name: Tweet Clustering and Analysis
+- name: Tweet Clustering and Analysis
   i18n: a
   gh_user: harrydurbin
   repo: tweet-data
   img: /static/assets/img/landing/tweetbird2.png
   desc: Parsing 1M+ geo-tagged tweets, creating spatial clusters, and storing in databases for display in GIS [Python,PostGIS,QGIS].
 
-  name: Chicago Bus Analysis
+- name: Chicago Bus Analysis
   i18n: a
   gh_user: harrydurbin
   repo: chicago-bus-analysis
@@ -34,7 +34,7 @@
   desc: Database schema design to optimize performance for chicago bus data [Python,PostGIS].
   # altsite: https://chicago-bus.herokuapp.com
 
-  name: Happiness Level Predictor
+- name: Happiness Level Predictor
   i18n: a
   gh_user: harrydurbin
   repo: happiness-level-predictor
@@ -42,14 +42,14 @@
   desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
   altsite: #https://happiness-predictor.herokuapp.com
 
-  name: GIS Line-Linking Algorithm
+- name: GIS Line-Linking Algorithm
   i18n: a
   gh_user: harrydurbin
   repo: GIS-street-link-algorithm
   img: /static/assets/img/landing/rio.jpg
   desc: Script to link thousands of nearly connected shapefile lines for a road network in Brazil.
 
-  name: Rose-tinted Glasses Web App
+- name: Rose-tinted Glasses Web App
   i18n: a
   gh_user: harrydurbin
   img: /static/assets/img/landing/glasses.png
