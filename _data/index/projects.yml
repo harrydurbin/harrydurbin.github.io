@@ -5,12 +5,12 @@
 
 
 # - name: Rainwater Disinfection Simulator
-#   i18n: a
-#   # gh_user: harrydurbin
-#   # repo: rain-tank-disinfection
-#   img: /static/assets/img/landing/raintank.png
-#   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
-#   altsite: /pdfjs-viewer/web/viewer.html
+  i18n: a
+  gh_user: harrydurbin
+  repo: rain-tank-disinfection
+  img: /static/assets/img/landing/raintank.png
+  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
+  altsite: /pdfjs-viewer/web/viewer.html
 
 - name: Indoor Temperature Forecast
   i18n: a
@@ -63,17 +63,17 @@
 #   img: /static/assets/img/landing/accelerometer.png
 #   desc: Arduino accelerometer sensor to detect rate of acceleration in a plastic egg.
 
-# - name: Ride-share Fare Predictor
-#   i18n: a
-#   gh_user: harrydurbin
-#   repo: taxi-fare-predictor
-#   img: /static/assets/img/landing/ride.png
-#   desc: Regression model using trees to predict fare cost.
+- name: Ride-share Fare Predictor
+  i18n: a
+  gh_user: harrydurbin
+  repo: taxi-fare-predictor
+  img: /static/assets/img/landing/ride.png
+  desc: Regression model using trees to predict fare cost.
 
 
-# - name: Tweet Clustering and Analysis
-#   i18n: a
-#   gh_user: harrydurbin
-#   repo: chilean-tweets
-#   img: /static/assets/img/landing/iconchile.png
-#   desc: Collecting geo-tagged tweets placed within the country of Chile and performing text analysis.
+- name: Tweet Clustering and Analysis
+  i18n: a
+  gh_user: harrydurbin
+  repo: chilean-tweets
+  img: /static/assets/img/landing/iconchile.png
+  desc: Collecting geo-tagged tweets placed within the country of Chile and performing text analysis.
