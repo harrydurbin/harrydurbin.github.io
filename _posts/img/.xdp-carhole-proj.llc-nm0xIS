@@ -1,0 +1,10 @@
+{
+  version: 1,
+  mediaFileName: 'carhole.mp4',
+  cutSegments: [
+    {
+      start: 7.2919076575,
+      name: '',
+    },
+  ],
+}
