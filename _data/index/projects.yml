@@ -2,14 +2,6 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
-- name: Rainwater Disinfection Simulator
-  i18n: a
-  gh_user: harrydurbin
-  repo: rain-tank-disinfection
-  img: /static/assets/img/landing/raintank.png
-  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
-  altsite: /pdfjs-viewer/web/viewer.html
-
 - name: Indoor Temperature Forecast
   i18n: a
   gh_user: harrydurbin
@@ -46,6 +38,14 @@
   repo: GIS-street-link-algorithm
   img: /static/assets/img/landing/rio.jpg
   desc: Script to link thousands of nearly connected shapefile lines for a road network in Brazil.
+
+- name: Rainwater Disinfection Control Simulator
+  i18n: a
+  gh_user: harrydurbin
+  repo: rain-tank-disinfection
+  img: /static/assets/img/landing/raintank.png
+  desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
+  altsite: /pdfjs-viewer/web/viewer.html
 
 # - name: Rose-tinted Glasses Web App
 #   i18n: a
