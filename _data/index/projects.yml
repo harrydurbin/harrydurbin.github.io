@@ -30,7 +30,7 @@
   repo: happiness-level-predictor
   img: /static/assets/img/landing/smile1.png
   desc: Analysis and prediction model of world-wide happiness levels [Python,Flask,Sqlite].
-  altsite: #https://happiness-predictor.herokuapp.com
+  # altsite: #https://happiness-predictor.herokuapp.com
 
 - name: GIS Line-Linking Algorithm
   i18n: a
@@ -39,13 +39,20 @@
   img: /static/assets/img/landing/rio.jpg
   desc: Script to link thousands of nearly connected shapefile lines for a road network in Brazil.
 
-# - name: Rainwater Disinfection Control Simulator
+- name: Rainwater Disinfection Simulator
   i18n: a
   gh_user: harrydurbin
   repo: rain-tank-disinfection
-  img: /static/assets/img/landing/raintank.png
+  img: /static/assets/img/landing/raintank.jpg
   desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
-  altsite: /pdfjs-viewer/web/viewer.html
+
+# - name: Rainwater Disinfection Control Simulator
+  # i18n: a
+  # gh_user: harrydurbin
+  # repo: rain-tank-disinfection
+  # img: /static/assets/img/landing/raintank.png
+  # desc: Computational model using advection-diffusion-reaction (ADR) equation with proportional controller to disinfect rainwater for potable use [Matlab].
+  # altsite: /pdfjs-viewer/web/viewer.html
 
 # - name: Rose-tinted Glasses Web App
 #   i18n: a
