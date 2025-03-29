@@ -39,7 +39,7 @@
   img: /static/assets/img/landing/rio.jpg
   desc: Script to link thousands of nearly connected shapefile lines for a road network in Brazil.
 
-- name: Rainwater Disinfection Control Simulator
+# - name: Rainwater Disinfection Control Simulator
   i18n: a
   gh_user: harrydurbin
   repo: rain-tank-disinfection
